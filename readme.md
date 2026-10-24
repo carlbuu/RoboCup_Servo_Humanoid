@@ -2,13 +2,6 @@
 
 本项目包含基于 STM32F407、MaixCAM Pro 和 13 个 STS3215 舵机的人形机器人控制代码、视觉程序与机械资料。
 
-机器人实物：
-
-<p>
-  <img src="assets/images/robot-front-detail.jpg" alt="机器人正面细节" width="45%">
-  <img src="assets/images/robot-full-view.jpg" alt="机器人整体实物" width="45%">
-</p>
-
 资料入口：
 
 01_控制代码：Keil 工程、动作表、舵机控制和主机测试。
@@ -18,6 +11,8 @@
 03_机械资料：STEP、SolidWorks 零件及 3MF 文件。
 
 04_舵机上位机：工具使用说明，本机厂商程序不纳入 Git 提交。
+
+[实物图片](实物图片)：比较丑，见谅。
 
 控制实现说明见 [控制代码.md](控制代码.md)，接线、参数和资料目录见 [比赛资料整理说明.md](比赛资料整理说明.md)。
 
