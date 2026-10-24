@@ -1,0 +1,32 @@
+name: Host checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  host-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 01_控制代码/HumanoidRobot_HSI/Tests
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Vision decisions
+        run: python test_walk_late_camera.py
+      - name: Dual gait
+        shell: pwsh
+        run: ./run_dual_gait_tests.ps1
+      - name: Walk and turn handoff
+        shell: pwsh
+        run: ./run_walk_turn_handoff_tests.ps1
+      - name: Late vision scheduling
+        shell: pwsh
+        run: ./run_walk_late_vision_tests.ps1

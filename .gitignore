@@ -1,0 +1,31 @@
+# Keil compiler output; retain project files, startup sources and linker scripts.
+**/MDK-ARM/**/*.o
+**/MDK-ARM/**/*.d
+**/MDK-ARM/**/*.crf
+**/MDK-ARM/**/*.axf
+**/MDK-ARM/**/*.hex
+**/MDK-ARM/**/*.map
+**/MDK-ARM/**/*.htm
+**/MDK-ARM/**/*.lnp
+**/MDK-ARM/**/*.dep
+**/MDK-ARM/**/*.lst
+**/MDK-ARM/**/*.log
+*.uvguix.*
+*.uvgui.*
+
+# Host test output and Python caches.
+**/Tests/*_build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local vendor program; redistribution permission has not been confirmed.
+/04_舵机上位机/FD1985-250729/
+
+# Editor and OS state.
+.vs/
+.DS_Store
+Thumbs.db
+Desktop.ini

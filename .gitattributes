@@ -1,0 +1,22 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.c text
+*.h text
+*.s text
+*.uvprojx text
+*.uvoptx text
+*.ioc text
+*.sct text
+*.STEP binary
+*.step binary
+*.SLDPRT binary
+*.3mf binary
+*.exe binary
+*.hex binary
+*.axf binary

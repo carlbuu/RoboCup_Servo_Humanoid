@@ -1,0 +1,15 @@
+授权与第三方组件说明
+
+本资料包的原创代码、文档和机械设计暂未指定开源许可证。
+公开展示不等于授予使用、修改或再分发原创内容的许可；相关授权由权利人另行确定。
+
+第三方组件仍适用各自的许可证，发布时应保留原有版权声明和许可文件：
+
+- FreeRTOS：01_控制代码/HumanoidRobot_HSI/Middlewares/Third_Party/FreeRTOS/Source/LICENSE
+- STM32 HAL：01_控制代码/HumanoidRobot_HSI/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt
+- CMSIS：01_控制代码/HumanoidRobot_HSI/Drivers/CMSIS/LICENSE.txt
+- STM32 设备支持：01_控制代码/HumanoidRobot_HSI/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt
+
+飞特舵机上位机 FD.exe 及其配套文件属于厂商工具，再分发权限未在本资料包中确认。
+本机副本可继续使用，但已通过 .gitignore 排除在 Git 提交范围之外。
+若通过网页或其他方式上传文件，也应排除该程序目录；请从厂商官方渠道获取工具。
